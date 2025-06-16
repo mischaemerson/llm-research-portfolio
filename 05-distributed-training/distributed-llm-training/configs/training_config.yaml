@@ -1,0 +1,10 @@
+model_name: microsoft/phi-2
+train_dataset: tatsu-lab/alpaca
+train_subset: train[:2000]
+epochs: 1
+batch_size: 1
+save_dir: ./results
+lora_r: 8
+lora_alpha: 32
+lora_dropout: 0.1
+

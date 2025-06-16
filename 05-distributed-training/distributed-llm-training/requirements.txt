@@ -1,0 +1,10 @@
+transformers
+datasets
+peft
+accelerate
+scipy
+torch
+huggingface_hub
+sentencepiece
+tqdm
+

@@ -1,0 +1,8 @@
+tqdm
+pandas
+numpy
+transformers
+sentence-transformers
+torch
+detoxify
+
