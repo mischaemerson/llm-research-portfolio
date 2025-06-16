@@ -1,49 +1,57 @@
-# llm-research-portfolio
-Mischa Emerson's portfolio of applied LLM research engineering projects, including fine-tuning, evaluation, alignment, and model deployment.
-# Mischa Emerson - LLM Research Engineer Portfolio
+# Mischa Emerson — LLM Research Engineer Portfolio
 
-Welcome to my applied AI research engineering portfolio. This repository contains my growing body of work focused on Large Language Model (LLM) systems, covering:
+Welcome to my applied AI research engineering portfolio. This repository contains my growing body of hands-on work focused on Large Language Model (LLM) systems, covering:
 
-- LLM fine-tuning and parameter-efficient training
-- Data preparation and cleaning for model training
-- Evaluation frameworks for LLM output quality
-- Responsible AI benchmarking (toxicity, bias, safety)
-- Distributed model training experiments
-- Efficient inference serving
-- Reinforcement learning from human feedback (RLHF)
-- Prompt engineering and reasoning experiments
-
----
-
-## 📌 Active Learning Goals
-
-- ✅ Build applied, practical projects aligned with real industry needs
-- ✅ Document entire learning journey with code, results, and write-ups
-- ✅ Position for LLM Research Engineer and ML Infra roles
+- ✅ LLM fine-tuning and parameter-efficient training (LoRA, PEFT)
+- ✅ Data preparation and cleaning for model training
+- ✅ Evaluation frameworks for LLM output quality (BLEU, ROUGE, Exact Match)
+- ✅ Responsible AI benchmarking (toxicity, bias, safety)
+- ✅ Distributed multi-GPU training experiments (Accelerate, DDP)
+- ✅ Efficient inference serving (FastAPI API deployment)
+- ✅ RLHF simulation framework (Phase 7)
+- ✅ Prompt engineering & reasoning experiments (Phase 8)
+- ✅ Live deployment prep (Phase 9 Hyperpolish)
 
 ---
 
 ## 📂 Project Directory
 
-| Project Phase | Project | Status |
-| --- | --- | --- |
-| 01 | Fine-Tuning Small LLM (Phi-3, TinyLlama, Mistral) | 🔨 In Progress |
+| Phase | Project | Status |
+|---|---|---|
+| 00 | Foundations & Hugging Face Prep | ✅ Complete |
+| 01 | Fine-Tuning Small LLMs (Phi-2, TinyLlama, Mistral) | ✅ Complete |
 | 02 | Data Cleaning Pipelines for LLM Datasets | ✅ Complete |
-| 03 | Evaluation Frameworks | 🔨 In Progress |
-| 04 | Bias & Responsible AI Testing | 🔨 Planned |
-| 05 | Distributed Training with DDP | 🔨 Planned |
-| 06 | Model Inference Optimization | 🔨 Planned |
-| 07 | RLHF Simulation | 🔨 Planned |
-| 08 | Prompt Optimization | 🔨 Planned |
+| 03 | Evaluation Frameworks (BLEU, ROUGE, EM) | ✅ Complete |
+| 04 | Bias & Responsible AI Testing (toxicity, bias) | ✅ Complete |
+| 05 | Distributed Training with DDP & Accelerate | ✅ Complete |
+| 06 | Inference Serving & Deployment (FastAPI, Transformers) | ✅ Complete |
+| 07 | RLHF Simulation Prep | 🔨 In Progress |
+| 08 | Prompt Engineering & COT Experiments | 🔨 In Progress |
+| 09 | Hyperpolish Pack (Demo Hosting, Docker, Deployment) | 🔜 Launching |
+
+---
+
+## 🚀 Summary
+
+This portfolio was designed to demonstrate full-stack LLM research engineering capabilities in preparation for roles including:
+
+- Research Engineer @ Meta AI (FAIR)
+- Applied LLM Engineer @ OpenAI / Anthropic / Google DeepMind / Hugging Face
+- Responsible AI Engineer
+- Applied AI Researcher
+
+All projects are fully reproducible and documented with real-world industry pipelines.
 
 ---
 
 ## 🔗 Connect
 
-- LinkedIn: [Mischa’s LinkedIn](#)
-- Portfolio: [Mischa’s Notion Portfolio](#)
-- Hugging Face: [Mischa’s HF Profile](#)
+- [LinkedIn Profile](https://www.linkedin.com/in/mischaemerson)
+- [Portfolio: Mischa’s Notion](https://merciful-ginger-7b6.notion.site/Mischa-Emerson-Engeering-Portfolio-1ff8807f8f868051bedac07eae351154
+
+- [Hugging Face Profile](mischaemerson)
 
 ---
 
-**Actively Learning. Actively Building. Open to collaboration. 🚀**
+Actively Building. Actively Learning. Open to collaboration. 🚀
+
