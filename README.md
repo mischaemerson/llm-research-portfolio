@@ -47,7 +47,7 @@ All projects are fully reproducible and documented with real-world industry pipe
 ## 🔗 Connect
 
 - [LinkedIn Profile](https://www.linkedin.com/in/mischaemerson)
-- [Portfolio: Mischa’s Notion](https://merciful-ginger-7b6.notion.site/Mischa-Emerson-Engeering-Portfolio-1ff8807f8f868051bedac07eae351154
+- [Portfolio: Mischa’s Notion](https://merciful-ginger-7b6.notion.site/Mischa-Emerson-Engeering-Portfolio-1ff8807f8f868051bedac07eae351154)
 
 - [Hugging Face Profile](mischaemerson)
 
