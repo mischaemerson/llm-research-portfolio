@@ -1,0 +1,7 @@
+prompt,completion,label
+What is the capital of France?,Paris,1
+What is the capital of France?,London,0
+What is 2 + 2?,4,1
+What is 2 + 2?,22,0
+Who wrote 1984?,George Orwell,1
+Who wrote 1984?,J.K. Rowling,0

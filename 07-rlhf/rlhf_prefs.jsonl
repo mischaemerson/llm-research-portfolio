@@ -1,0 +1,3 @@
+{"prompt": "What is the capital of France?", "completion_1": "Paris", "completion_2": "London", "preferred": 1}
+{"prompt": "What is 2 + 2?", "completion_1": "4", "completion_2": "22", "preferred": 1}
+{"prompt": "Who wrote 1984?", "completion_1": "George Orwell", "completion_2": "J.K. Rowling", "preferred": 1}
