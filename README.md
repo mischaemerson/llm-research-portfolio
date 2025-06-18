@@ -8,9 +8,9 @@ Welcome to my applied AI research engineering portfolio. This repository contain
 - ✅ Responsible AI benchmarking (toxicity, bias, safety)
 - ✅ Distributed multi-GPU training experiments (Accelerate, DDP)
 - ✅ Efficient inference serving (FastAPI API deployment)
-- ✅ RLHF simulation framework (Phase 7)
-- ✅ Prompt engineering & reasoning experiments (Phase 8)
-- ✅ Live deployment prep (Phase 9 Hyperpolish)
+- ✅ RLHF simulation framework (Phase 07)
+- ✅ Prompt engineering & reasoning experiments (Phase 08)
+- ✅ Live deployment prep (Phase 09 Hyperpolish)
 
 ---
 
@@ -25,9 +25,39 @@ Welcome to my applied AI research engineering portfolio. This repository contain
 | 04 | Bias & Responsible AI Testing (toxicity, bias) | ✅ Complete |
 | 05 | Distributed Training with DDP & Accelerate | ✅ Complete |
 | 06 | Inference Serving & Deployment (FastAPI, Transformers) | ✅ Complete |
-| 07 | RLHF Simulation Prep | 🔨 In Progress |
+| 07 | RLHF Simulation Prep | ✅ Complete |
 | 08 | Prompt Engineering & COT Experiments | 🔨 In Progress |
 | 09 | Hyperpolish Pack (Demo Hosting, Docker, Deployment) | 🔜 Launching |
+
+---
+
+## 🔧 Phase 07 Highlight – RLHF Simulation Prep
+
+This phase simulates the data preparation process used in RLHF pipelines. I created a structured JSONL dataset of prompt/completion pairs with human preference labels, then wrote a script to convert it into a binary-labeled format suitable for training reward models. This simulates the "pre-reward model" phase of modern alignment pipelines.
+
+**Files Created:**
+- `rlhf_prefs.jsonl` – raw preferences  
+- `prep_rlhf_dataset.py` – Python script to convert to reward data  
+- `rlhf_reward_data.csv` – labeled output for supervised reward training
+
+Run the script:
+```bash
+python3 prep_rlhf_dataset.py
+
+---
+
+Preview of output dataset:
+
+| prompt                         | completion      | label |
+|--------------------------------|-----------------|-------|
+| What is the capital of France? | Paris           | 1     |
+| What is the capital of France? | London          | 0     |
+| What is 2 + 2?                 | 4               | 1     |
+| What is 2 + 2?                 | 22              | 0     |
+| Who wrote 1984?                | George Orwell   | 1     |
+| Who wrote 1984?                | J.K. Rowling    | 0     |
+
+This step taught me how feedback data is encoded into usable labels and how reward modeling fits into real-world GenAI workflows.
 
 ---
 
