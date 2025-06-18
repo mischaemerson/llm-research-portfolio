@@ -87,7 +87,7 @@ Preview of output dataset:
 ```
 ---
 
-Phase 08 – Prompt Engineering & CoT Experiments
+### Phase 08 – Prompt Engineering & CoT Experiments
 This phase compared basic prompt formats to Chain-of-Thought (CoT) prompting across math, logic, and ethics tasks. I structured experiments in code, tested model outputs, and recorded how CoT improved performance — especially for reasoning-based inputs. This reinforced the value of prompt design as a low-cost method to improve output quality.
 
 ---
