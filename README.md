@@ -31,7 +31,7 @@ Welcome to my applied AI research engineering portfolio. This repository contain
 
 ---
 
-## 🔧 Phase Highlights
+## Phase Highlights
 
 ### Phase 01 – Fine-Tuning with LoRA + PEFT
 
