@@ -14,6 +14,19 @@ This repository showcases a modular, end-to-end LLM system that simulates real-w
 
 ---
 
+## 🚀 Quickstart
+
+### Run locally (with Python and pip)
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+uvicorn app:app --host 0.0.0.0 --port 8000
+```
+
+---
+
 ## 📂 Project Directory
 
 | Phase | Project | Status |
