@@ -84,6 +84,7 @@ Preview of output dataset:
 | Who wrote 1984?                | George Orwell   | 1     |
 | Who wrote 1984?                | J.K. Rowling    | 0     |
 
+```
 ---
 
 Phase 08 – Prompt Engineering & CoT Experiments
