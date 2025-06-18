@@ -88,7 +88,7 @@ This step taught me how feedback data is encoded into usable labels and how rewa
 
 ---
 
-## 🚀 Summary
+##  Summary
 
 This portfolio was designed to demonstrate full-stack LLM research engineering capabilities in preparation for roles including:
 
@@ -110,5 +110,5 @@ All projects are fully reproducible and documented with real-world industry pipe
 
 ---
 
-Actively Building. Actively Learning. Open to collaboration. 🚀
+Actively Building. Actively Learning. Open to collaboration. 
 
