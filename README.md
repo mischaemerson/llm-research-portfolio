@@ -107,15 +107,15 @@ This phase compared basic prompt formats to Chain-of-Thought (CoT) prompting acr
 
 ## 🧠 Reflection
 
-This project brought together everything I’ve learned across cloud engineering, scripting, AI deployment, and LLM evaluation. It wasn’t easy — I hit VRAM walls, package conflicts, and had to reroute around `sentencepiece` errors — but working through those obstacles gave me the confidence to debug and deploy like a real-world LLM engineer.
+Building this system pushed me to apply everything I’ve learned about LLMs — from fine-tuning and evaluation to safety, alignment, and deployment — in a way that mirrors real-world engineering workflows. Each phase tested a different part of my skill set, and by the end, I wasn’t just training models — I was building infrastructure around them.
 
-This system also showed me how much thoughtful design matters: config-driven development, reproducibility, and safe fallback behavior made the system manageable even when complex.
+The biggest takeaway wasn’t just technical — it was architectural. Designing for modularity, reproducibility, and safe fallbacks helped me stay in control even when the system grew more complex. From training to deployment, I relied on config-driven development and versioned pipelines to keep things reliable.
 
-Simulating RLHF preparation gave me practical insight into how feedback-based human preferences can be encoded into a structured training format. Even without full PPO training, designing the data pipeline and reward labeling logic helped me better understand how these components fit into modern GenAI workflows. It reinforced the importance of data engineering as the foundation for safe and scalable AI development.
+Simulating RLHF prep showed me how much rigor goes into modeling subjective feedback. Even without reinforcement learning, I gained hands-on experience turning human preference data into structured reward signals — a critical part of modern GenAI alignment workflows.
 
-In Phase 08, I was surprised by how much difference prompt structure alone could make. Chain-of-Thought (CoT) formatting led to noticeably better answers — especially for logic and math tasks — without any model fine-tuning. It showed me how prompt engineering can be used as a lightweight but powerful tool to influence model behavior, and how important it is to test prompts as rigorously as we test code. That realization shifted how I think about LLM usability and explainability.
+Prompt engineering also shifted my mindset. Chain-of-Thought formatting proved that smart prompt design can improve reasoning quality without touching model weights. That opened my eyes to just how powerful and underutilized prompts still are.
 
-I’m excited to improve this with instruction-tuned models, better eval datasets, and possibly full RLHF or quantization phases in the future.
+Finally, wrapping the entire system in a Dockerized FastAPI app gave me a clean handoff point — a local, testable, shareable demo that reflects everything I built. This project now feels like more than a set of experiments — it’s a modular research system I’d feel confident evolving, extending, or adapting in a professional setting.
 
 ---
 
